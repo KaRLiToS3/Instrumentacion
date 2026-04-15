@@ -2503,16 +2503,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 91.44) (xy 88.9 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dffc728-c87a-430c-8ee6-f64385b657d8")
-	)
-	(wire
-		(pts
 			(xy 135.89 27.94) (xy 135.89 53.34)
 		)
 		(stroke
@@ -2520,6 +2510,16 @@
 			(type default)
 		)
 		(uuid "8ae0a9cd-a377-428f-bccb-e8aa23bdce35")
+	)
+	(wire
+		(pts
+			(xy 85.09 88.9) (xy 88.9 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d63444c-dd97-4111-b702-dfdef4454f40")
 	)
 	(wire
 		(pts
@@ -2603,6 +2603,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 91.44) (xy 88.9 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d497393a-1337-43fe-9485-01d63bcaadca")
+	)
+	(wire
+		(pts
 			(xy 135.89 58.42) (xy 123.19 58.42)
 		)
 		(stroke
@@ -2683,16 +2693,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 93.98) (xy 88.9 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e76119f7-0d6e-4e1a-9300-292469fba3d1")
-	)
-	(wire
-		(pts
 			(xy 166.37 43.18) (xy 170.18 43.18)
 		)
 		(stroke
@@ -2762,7 +2762,7 @@
 		(uuid "c939aacd-6001-442e-8a35-929886400533")
 	)
 	(label "Vb"
-		(at 86.36 93.98 180)
+		(at 85.09 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2782,7 +2782,7 @@
 		(uuid "dcb79800-4338-4318-a00e-4e59decd6087")
 	)
 	(label "Va"
-		(at 86.36 91.44 180)
+		(at 85.09 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3241,7 +3241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+		(property "Footprint" "easyeda2kicad:PDIP-14_L19.7-W6.6-P2.54-LS8.3-BL"
 			(at 142.24 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -3459,7 +3459,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+		(property "Footprint" "easyeda2kicad:PDIP-14_L19.7-W6.6-P2.54-LS8.3-BL"
 			(at 86.36 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -3588,7 +3588,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+		(property "Footprint" "easyeda2kicad:PDIP-14_L19.7-W6.6-P2.54-LS8.3-BL"
 			(at 54.61 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -3854,7 +3854,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 88.9 270)
+		(at 88.9 93.98 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3865,7 +3865,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f71366a-a2fc-4b3b-8cdd-1780fa3a2d96")
 		(property "Reference" "#PWR09"
-			(at 82.55 88.9 0)
+			(at 82.55 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3876,7 +3876,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 88.8999 90)
+			(at 85.09 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3887,7 +3887,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 88.9 0)
+			(at 88.9 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3898,7 +3898,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 88.9 0)
+			(at 88.9 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3909,7 +3909,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 88.9 0)
+			(at 88.9 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4133,7 +4133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+		(property "Footprint" "easyeda2kicad:PDIP-14_L19.7-W6.6-P2.54-LS8.3-BL"
 			(at 57.15 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4514,7 +4514,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+		(property "Footprint" "easyeda2kicad:PDIP-14_L19.7-W6.6-P2.54-LS8.3-BL"
 			(at 113.03 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -5618,7 +5618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Horizontal"
 			(at 93.98 91.44 0)
 			(hide yes)
 			(show_name no)
