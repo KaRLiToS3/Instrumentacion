@@ -5237,9 +5237,9 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R7"
-			(at 5.08 -2.37 0)
+			(at 4.98 2.3 0)
 			(layer "F.SilkS")
-			(uuid "125e3b54-f668-44ce-88c1-42ca4c96c5a8")
+			(uuid "57fc561a-ae60-4b3e-800f-aa9f902bceb4")
 			(effects
 				(font
 					(size 1 1)
@@ -5250,7 +5250,7 @@
 		(property "Value" "5.1k"
 			(at 5.08 2.37 0)
 			(layer "F.Fab")
-			(uuid "c4037ebb-da3e-46ae-a792-1e73c355df83")
+			(uuid "2437a5ac-0565-48a1-99a6-5e3fe629f8c0")
 			(effects
 				(font
 					(size 1 1)
@@ -5262,7 +5262,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ded12cb8-0c2f-4a56-9b87-c745f0cea926")
+			(uuid "cfda5d24-04df-439c-b5ea-f96d954cdd24")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5273,7 +5273,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "db1afc22-3b78-4701-94dc-3a4e5a6c8b4a")
+			(uuid "368cb0b1-3718-49b6-82cd-502698cb3e6e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5649,6 +5649,114 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "f0c90125-9ab5-4ed2-bcd8-852e7aef7ba9")
+	)
+	(gr_text "GND"
+		(at 85.7 41.4 180)
+		(layer "F.SilkS")
+		(uuid "c5663b99-0e1a-4766-ba27-90e5df08fa66")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "VCC"
+		(at 88.4 41.4 180)
+		(layer "F.SilkS")
+		(uuid "b740d4d8-c3bb-43c9-ab4c-f2d3b5ccfb06")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Vout"
+		(at 112.8 41.4 180)
+		(layer "F.SilkS")
+		(uuid "5439cf9f-25c4-451c-9b4c-7347d3377cd6")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 115.5 41.4 180)
+		(layer "F.SilkS")
+		(uuid "d0fca645-74b4-4056-9bd9-494b74c13229")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "VCC"
+		(at 95.1 98.4 0)
+		(layer "B.SilkS")
+		(uuid "4d22f812-2852-4289-9a07-785d503d88ab")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "A"
+		(at 96.8 98.4 0)
+		(layer "B.SilkS")
+		(uuid "14669eac-40ef-4b6e-96d9-38319a486d33")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "B"
+		(at 99.4 98.4 0)
+		(layer "B.SilkS")
+		(uuid "376be19f-6a1b-437c-a172-189f31c7153f")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 102.7 98.4 0)
+		(layer "B.SilkS")
+		(uuid "61d8e6bd-708b-47e3-84d1-9b58f29f6d87")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "VEE"
+		(at 105.1 98.4 0)
+		(layer "B.SilkS")
+		(uuid "f6a96d0a-1501-4d91-b1ba-9e88323c9da1")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(point
 		(at 77.65 40.15)
